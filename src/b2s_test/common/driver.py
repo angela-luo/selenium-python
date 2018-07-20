@@ -40,5 +40,4 @@ class Driver(object):
         driver.get(server + url)
         driver.maximize_window()
         driver.implicitly_wait(10)
-
         

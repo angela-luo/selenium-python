@@ -1,9 +1,13 @@
+# -*- coding: utf-8 -*-
 '''
 Created on Jul 6, 2018
 
 @author: Administrator
 '''
-import unittest
+
+import unittest, os, sys
+p = os.path.abspath('..')
+sys.path.append(p)
 from b2s_test.page_objects.login_pg import Login 
 
 

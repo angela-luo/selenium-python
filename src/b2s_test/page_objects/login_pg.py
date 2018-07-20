@@ -8,6 +8,10 @@ import selenium
 import os, sys
 import time
 from selenium import webdriver
+#from b2s_test.common.driver import Driver
+
+p = os.path.abspath('..')
+sys.path.append(p)
 from b2s_test.common.driver import Driver
 
 class Login(object):
